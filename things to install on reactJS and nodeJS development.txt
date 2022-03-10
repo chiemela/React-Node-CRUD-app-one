@@ -1,0 +1,18 @@
+Things to install on reactJS and nodeJS development
+
+server folder
+1) npm init
+2) npm install express cors mysql2
+3) npm install nodemon. Note: Go to server package.json > dependencies "Scripts" section and include this: "start": "nodemon index.js"
+4) npm install sequelize sequelize-cli. Note: Open cmd andenter these commands separately "npm install -g sequelize" "npm i -g sequelize-cli"
+5) sequelize init
+8) npm install cors
+12) npm install bcrypt
+
+
+client folder
+6) npx create-react-app .
+7) npm install axios
+9) npm install react-router-dom
+10) npm install formik
+11) npm install yup
